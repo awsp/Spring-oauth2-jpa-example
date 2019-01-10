@@ -1,0 +1,6 @@
+POST http://localhost:9001/oauth/token?grant_type=password&username=user&password=user&client_id=my-trusted-client&client_secret=secret
+Content-Type: application/json
+
+###
+# curl -X POST -d "client_id=my-trusted-client&client_secret=secret&grant_type=password&username=user&password=user" http://localhost:8080/oauth/token
+
